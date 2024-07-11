@@ -136,17 +136,17 @@ button:active {
         margin-top: -1rem;
     }
     .email_div input{
-        width: 15.5rem;
+        width: 12.5rem;
     }
     .email_div {
-        width: 17rem;
+        width: 14rem;
     }
     .password_div {
-        width: 17rem;
+        width: 14rem;
     }
     h5 {
-        margin-top: -4rem;
-        padding-right: 0.5rem;
+        margin-top: -5rem;
+        padding-right: 1.8rem;
     }
     button {
         height: 2rem;
@@ -159,3 +159,4 @@ button:active {
 
 
 }
+
