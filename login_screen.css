@@ -162,23 +162,27 @@ button:active {
 
 @media (max-width: 360px) {
   .email_div input {
-    width: 12.5rem;
+    width: 13rem;
   }
   .email_div {
-    width: 14rem;
+    width: 14.5rem;
   }
   .eye {
   }
   .password_div {
-    width: 14rem;
+    width: 14.5rem;
   }
   .password_div input {
     height: 100%;
     width: 100%;
   }
+  h1 {
+    font-size: 1.2rem;
+  }
   h5 {
     padding-right: 1.6rem;
     margin-top: -5rem;
+    font-size: 0.8rem;
   }
   button {
     height: 2.3rem;
