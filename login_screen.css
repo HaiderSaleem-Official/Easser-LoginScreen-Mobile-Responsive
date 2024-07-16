@@ -147,8 +147,8 @@ button:active {
     width: 19.5rem;
   }
   h5 {
-    margin-top: -4rem;
-    padding-right: 2rem;
+    margin-top: -5rem;
+    padding-right: 1.7rem;
   }
   button {
     height: 2.3rem;
@@ -160,17 +160,17 @@ button:active {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
   .email_div input {
-    width: 13rem;
+    width: 13.5rem;
   }
   .email_div {
-    width: 14.5rem;
+    width: 15rem;
   }
   .eye {
   }
   .password_div {
-    width: 14.5rem;
+    width: 15rem;
   }
   .password_div input {
     height: 100%;
@@ -180,7 +180,7 @@ button:active {
     font-size: 1.2rem;
   }
   h5 {
-    padding-right: 1.6rem;
+    padding-right: 1.9rem;
     margin-top: -5rem;
     font-size: 0.8rem;
   }
