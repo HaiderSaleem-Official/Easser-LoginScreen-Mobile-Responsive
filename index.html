@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login_screen.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login_screen.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+    </style>
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="img_div">
-            <img src="eeaser.png" alt="" class="image">
+      <div class="img_div">
+        <img src="eeaser.png" alt="" class="image" />
+      </div>
+      <h1>Log In To Your Account</h1>
+
+      <form action="">
+        <div class="input_div">
+          <div class="email_div">
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="password_div">
+            <input type="password" placeholder="Password" /><img
+              src="eye_logo.svg"
+              class="eye"
+              alt=""
+            />
+          </div>
         </div>
-        <h1>Log In To Your Account</h1>
-        
-        <form action="">
-            <div class="input_div">
-                <div class="email_div"><input type="email" placeholder="Email"></div>
-                <div class="password_div"><input type="password" placeholder="Password" ><img src="eye_logo.svg" class="eye" alt=""></div>
-                
-            </div>
-        </form>
-        <div class="forget_password"><h5>Forget Password?</h5></div>
-        <button>Log In</button>
+      </form>
+      <div class="forget_password"><h5>Forget Password?</h5></div>
+      <button>Log In</button>
     </div>
-</body>
+  </body>
 </html>
