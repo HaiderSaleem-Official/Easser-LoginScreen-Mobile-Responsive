@@ -1,0 +1,192 @@
+* {
+  margin: auto 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d1f1fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30rem;
+  width: 28rem;
+  border-radius: 1rem;
+  border: 4px solid white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.2 ease-in-out;
+}
+.container:hover {
+  border-color: rgb(37, 207, 229);
+  /* transform: scale(1.02); */
+}
+
+.input_div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-top: -2.4rem;
+}
+.email_div input {
+  width: 23rem;
+  height: 3rem;
+  background-color: #f6f6f6;
+  border-radius: 0.4rem;
+  border: none;
+  padding-left: 1.5rem;
+  outline: none;
+  font-size: 1rem;
+}
+
+.email_div {
+  border: 2px solid white;
+  transition: border-color ease;
+  border-radius: 0.4rem;
+}
+.email_div:hover {
+  border-color: rgb(37, 207, 229);
+}
+/* .email_div:active {
+      border-color: rgb(0, 106, 255); ;
+  } */
+
+.password_div input {
+  width: 23rem;
+  height: 3rem;
+  background-color: #f6f6f6;
+  border-radius: 0.4rem;
+  border: none;
+  padding-left: 1.5rem;
+  outline: none;
+  font-size: 1rem;
+}
+
+.password_div {
+  background-color: #f6f6f6;
+  width: 24.5rem;
+  height: 3rem;
+  display: flex;
+  border-radius: 0.6rem;
+  border: 2px solid white;
+  bacground-color: rgb(226, 225, 225);
+  transition: border-color ease;
+}
+.password_div:hover {
+  border-color: rgb(37, 207, 229);
+}
+/* .password_div:active {
+      border-color: rgb(37, 207, 229);;
+  } */
+
+h1 {
+  font-size: 1.5rem;
+  margin-top: 1vh;
+  font-weight: 900;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h5 {
+  margin-top: -3.4rem;
+  font-size: 1rem;
+  font-weight: 800;
+  padding-right: 2rem;
+  color: #0d3a63;
+}
+
+button {
+  background-color: rgb(40, 40, 92);
+  width: 17rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  transition: ease-in-out;
+  margin-top: -1rem;
+  font-size: 1rem;
+  font-weight: 200;
+}
+button:active {
+  transform: scale(1.02);
+}
+
+.forget_password {
+  display: flex;
+  margin-left: auto;
+}
+
+.eye {
+  padding-right: 0.5rem;
+}
+
+/* Now work on Media queries */
+@media (max-width: 480px) {
+  .image {
+    height: 3.5rem;
+  }
+  h1 {
+    font-size: 1.3rem;
+    margin-top: -1rem;
+  }
+  .email_div input {
+    width: 18rem;
+  }
+  .email_div {
+    width: 19.5rem;
+  }
+  .password_div {
+    width: 19.5rem;
+  }
+  h5 {
+    margin-top: -5rem;
+    padding-right: 1.7rem;
+  }
+  button {
+    height: 2.3rem;
+    width: 14rem;
+    margin-top: -4rem;
+  }
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 380px) {
+  .email_div input {
+    width: 13.5rem;
+  }
+  .email_div {
+    width: 15rem;
+  }
+  .eye {
+  }
+  .password_div {
+    width: 15rem;
+  }
+  .password_div input {
+    height: 100%;
+    width: 100%;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  h5 {
+    padding-right: 1.9rem;
+    margin-top: -5rem;
+    font-size: 0.8rem;
+  }
+  button {
+    height: 2.3rem;
+    width: 10rem;
+    margin-top: -3rem;
+  }
+}
